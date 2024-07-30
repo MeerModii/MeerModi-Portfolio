@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Meer Modi - Portfolio</title>
+  <meta content="" name="description">
+  <meta content="Meer Modi" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/favicon.ico" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/file.png" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Meer Modi</h1>
+    </a>
+
+    <div class="social-links text-center">
+      
+      <a href="https://github.com/MeerModii" target = "_blank" class="github"><i class="bi bi-github"></i></a>
+      <a href="mailto:mnm23@njit.edu" target = "_blank" class="email"><i class="bi bi-envelope-at-fill"></i></a>
+      <a href="https://www.linkedin.com/in/meermodi/" target = "_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Meer Modi</h2>
+        <p>I'm <span class="typed" data-typed-items="Software Developer, Cloud Engineer, IT Analyst, Teaching Assistant, Tech Enthusiast"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+        <br>
+        <button class="button-30" role="button" onclick="downloadResume()">Download Resume</button>
+        <script>
+          function downloadResume() {
+              const link = document.createElement('a');
+              link.href = 'assets/Resume Meer Modi.pdf'; // Replace with the path to your PDF file
+              link.download = 'Meer ModiResume.pdf'; // The desired name for the downloaded file
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+          }
+      </script>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Hi, I'm <b>Meer Modi</b>, a Computer Science student at NJIT, graduating in December 2025. I have interned at P&F Solutions and New Jersey Courts, focusing on cloud solutions and IT systems. As a Teaching Assistant, I help students master Java, Python, and software development. My projects include a Financial Assets Analysis app and a Chess application. I'm passionate about data analytics and cybersecurity.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Software Developer & IT Analyst</h2>
+            <p class="fst-italic py-3">
+              
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right" href></i> <strong>Email:</strong> <a href="mailto:mnm23@njit.edu" target = "_blank">mnm23@njit.edu</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(908) 416-2191</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Newark, New Jersey</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 October 2004</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>linkedin:</strong> <a href="https://www.linkedin.com/in/meermodi/" target = "_blank">linkedin.com/in/meermodi</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <a href="https://github.com/MeerModii" target = "_blank">github.com/MeerModii</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <a href="https://meermodi.study/" target = "_blank">meermodi.study</a></li>
+
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+           
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Innovative and deadline-driven Computer Science student with extensive experience in cloud engineering, IT systems, and software development.
+
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Cloud Engineering Intern</h4>
+              <h5>July 2024 - Present</h5>
+              <p><em>P&F Solutions, Online, NJ </em></p>
+              <ul>
+                <li>Applied knowledge of cloud fundamentals, Terraform, and Ansible to design, document, and implement scalable cloud solutions.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Software Developer - IT Analyst 1 Intern</h4>
+              <h5>June 2024 - Present</h5>
+              <p><em>New Jersey Courts, Bridgeton, NJ</em></p>
+              <ul>
+            
+                <li> Managed IT tickets and Microsoft Azure cloud configuration for over 500 court employees while developing an inventory management system using Microsoft Power Apps 
+       
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Teaching Assistant - Data & Computer Science </h4>
+              <h5>January 2023 - Present</h5>
+              <p><em>New Jersey Institute of Technology, Newark, NJ</em></p>
+              <ul>
+                <li>Facilitated learning by teaching fundamentals of Java and Python, along with core software development concepts of
+                  Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA).</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelors of Science in Computer Science</h4>
+              <h5>2022 - 2025</h5>
+              <p><em>New Jersey Institute of Technology, Newark, NJ</em></p>
+              <ul>
+                <li>GPA: 3.75</li>
+                <li>Dean’s Scholar: Fall 2022, Spring 2023, Fall 2023, Spring 2024</li>
+              </ul>
+
+
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+      
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="container">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Dive into this software gallery showcasing my projects developed from the fusion of college-acquired knowledge and external inspirations. Explore freely, and connect with me if you have any inquiries, internship or Job opportunities.</p>
+      </div><!-- End Section Title -->
+
+      <div class="ag-format-container">
+        <div class="ag-courses_box">
+          <div class="ag-courses_item">
+            <a href="https://github.com/MeerModii/CoinWave_Multiplatform" class="ag-courses-item_link">
+              <div class="ag-courses-item_content">
+                <div class="ag-courses-item_title">
+                  Financial Assets Analysis Software
+                </div>
+                <img src="assets/img/coinwave.jpg" alt="Financial Asset Management Software" class="ag-courses-item_image">
+                <div class="ag-courses-item_description">
+                  <!-- Description content goes here -->
+                Full Stack Flutter application that fetches, analyzes, and displays real-time stock and cryptocurrency market data. It utilizes APIs for real-time price updates and Firebase for secure user authentication. Azure Functions and SQL databases, deployed via Terraform, form a historical market data repository, enabling the creation of interactive graphs for advanced analytics and predictions.
+                </div>
+                <div class="ag-courses-item_date-box">
+                  <span class="ag-courses-item_date">
+                    <button class="button-30" type="button" a href="https://github.com/MeerModii/CoinWave_Multiplatform">GitHub</button>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+      
+          <div class="ag-courses_item">
+            <a href="https://github.com/MeerModii/Trip-Sync" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Marine Mapping & Navigation Tool
+              </div>
+              <img src="assets/img/tripsync.png" alt="Financial Asset Management Software" class="ag-courses-item_image">
+              <div class="ag-courses-item_description">
+                <!-- Description content goes here -->
+                A dynamic web application developed during a 24-hour hackathon with a team of four developers. Utilizing Microsoft Maps and the Marine Traffic API along with PHP, HTML, SQL, and JavaScript, this project offers a reliable navigation system for real-time ocean mapping and effectively displays global ship locations and ports, providing users with up-to-date maritime information.
+              </div>
+              <div class="ag-courses-item_date-box">
+                <span class="ag-courses-item_date">
+                  <button class="button-30" type="button" a href="https://github.com/MeerModii/Trip-Sync">GitHub</button>
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Chess Application
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  04.11.2022
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Graphic Design
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  04.11.2022
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <!-- <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Motion Design
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  30.11.2022
+                </span>
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Front-end development&#160;+ jQuery&#160;+ CMS
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg">
+              </div>
+              <div class="ag-courses-item_title">
+                Digital Marketing
+              </div>
+            </a>
+          </div>
+      
+          <div class="ag-courses_item">
+            <a href="#" class="ag-courses-item_link">
+              <div class="ag-courses-item_bg"></div>
+      
+              <div class="ag-courses-item_title">
+                Interior Design
+              </div>
+      
+              <div class="ag-courses-item_date-box">
+                Start:
+                <span class="ag-courses-item_date">
+                  31.10.2022
+                </span>
+              </div>
+            </a>
+          </div> -->
+      
+        </div>
+      </div>
+    </section><!-- /Portfolio Section -->
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Reach out to me with any internship or job opportunities !</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Roselle Park, New Jersey</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+1 908 416 2191</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>mnm23@njit.edu</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-4">
+        
+                    <div class="col-md-6">
+                        <label for="name" class="pb-2">Your Name</label>
+                        <input type="text" name="name" id="name" class="form-control" required="">
+                    </div>
+        
+                    <div class="col-md-6">
+                        <label for="email" class="pb-2">Your Email</label>
+                        <input type="email" class="form-control" name="email" id="email" required="">
+                    </div>
+        
+                    <div class="col-md-12">
+                        <label for="phone" class="pb-2">Phone</label>
+                        <input type="text" class="form-control" name="phone" id="phone" required="">
+                    </div>
+        
+                    <div class="col-md-12">
+                        <label for="message" class="pb-2">Message</label>
+                        <textarea class="form-control" name="message" rows="10" id="message" required=""></textarea>
+                    </div>
+        
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div id="submitErrorMessage" class="error-message" style="display: none;">Error sending email</div>
+                        <div id="submitSuccessMessage" class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+        
+                        <button class="button-30" type="button" onclick="sendEmail()">Send Message</button>
+                    </div>
+        
+                </div>
+            </form>
+        </div>
+        
+        <script type="text/javascript">
+            function sendEmail() {
+                const templateParams = {
+                    name: document.getElementById("name").value,
+                    email: document.getElementById("email").value,
+                    phone: document.getElementById("phone").value,
+                    message: document.getElementById("message").value,
+                };
+        
+                emailjs.send("service_wryzlcp", "template_2t4403e", templateParams)
+                    .then(function(response) {
+                        console.log("Email sent successfully:", response);
+                        document.getElementById("submitSuccessMessage").style.display = "block";
+                        document.getElementById("contact-form").reset(); // Reset the form fields
+                    }, function(error) {
+                        console.log("Error sending email:", error);
+                        document.getElementById("submitErrorMessage").style.display = "block";
+                    });
+            }
+        </script>
+        
+        
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
