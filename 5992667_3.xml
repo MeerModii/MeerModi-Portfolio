@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://meermodi.dev/</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html#hero</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html#about</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html#resume</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html#portfolio</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://meermodi.dev/index.html#contact</loc>
+	<lastmod>2024-07-30T17:50:01+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
