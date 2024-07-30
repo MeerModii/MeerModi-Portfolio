@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+      (function() {
+          emailjs.init("lHIcAadI3J_ooFaAE");
+      })();
+  </script> 
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Meer Modi - Portfolio</title>
@@ -411,39 +418,32 @@
           <div class="col-lg-7">
             <form id="contact-form" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
                 <div class="row gy-4">
-        
                     <div class="col-md-6">
                         <label for="name" class="pb-2">Your Name</label>
                         <input type="text" name="name" id="name" class="form-control" required="">
                     </div>
-        
                     <div class="col-md-6">
                         <label for="email" class="pb-2">Your Email</label>
                         <input type="email" class="form-control" name="email" id="email" required="">
                     </div>
-        
                     <div class="col-md-12">
                         <label for="phone" class="pb-2">Phone</label>
                         <input type="text" class="form-control" name="phone" id="phone" required="">
                     </div>
-        
                     <div class="col-md-12">
                         <label for="message" class="pb-2">Message</label>
                         <textarea class="form-control" name="message" rows="10" id="message" required=""></textarea>
                     </div>
-        
                     <div class="col-md-12 text-center">
                         <div class="loading">Loading</div>
                         <div id="submitErrorMessage" class="error-message" style="display: none;">Error sending email</div>
                         <div id="submitSuccessMessage" class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
-        
                         <button class="button-30" type="button" onclick="sendEmail()">Send Message</button>
                     </div>
-        
                 </div>
             </form>
         </div>
-        
+    
         <script type="text/javascript">
             function sendEmail() {
                 const templateParams = {
@@ -452,8 +452,8 @@
                     phone: document.getElementById("phone").value,
                     message: document.getElementById("message").value,
                 };
-        
-                emailjs.send("service_wryzlcp", "template_2t4403e", templateParams)
+    
+                emailjs.send("service_2dn90lb", "template_2t4403e", templateParams)
                     .then(function(response) {
                         console.log("Email sent successfully:", response);
                         document.getElementById("submitSuccessMessage").style.display = "block";
