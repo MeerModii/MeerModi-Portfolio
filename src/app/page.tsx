@@ -38,7 +38,7 @@ export default function Home() {
       <div className="relative z-10 max-w-5xl mx-auto px-6 md:px-12 pb-24">
         
         {/* --- Hero Section --- */}
-        <section className="min-h-[85vh] flex flex-col justify-center pt-32 md:pt-0">
+        <section className="min-h-[85vh] flex flex-col justify-center pt-32 md:pt-40">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
