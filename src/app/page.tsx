@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowUpRight, Github, Linkedin, Mail, Download } from "lucide-react";
+import { ArrowUpRight, Github, Linkedin, Mail, Download, Code2 } from "lucide-react";
 import { personalInfo, experience, projects, skills } from "./data/content";
 
 // --- Components ---
@@ -139,11 +139,11 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
              {projects.map((project) => (
-               <Card key={project.id} className="group cursor-pointer min-h-[300px] flex flex-col justify-between">
+               <Card key={project.id} className="group cursor-default min-h-[300px] flex flex-col justify-between">
                   <div>
                     <div className="flex justify-between items-start mb-6">
                       <div className="p-3 bg-primary/10 rounded-xl text-primary">
-                        <Github size={20} />
+                        <Code2 size={20} />
                       </div>
                       <ArrowUpRight className="text-muted group-hover:text-primary transition-colors" />
                     </div>
